@@ -10,12 +10,14 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     Button btn;
     TextView tView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tView = findViewById(R.id.tView);
         btn = findViewById(R.id.btn);
+
     }
 
 
